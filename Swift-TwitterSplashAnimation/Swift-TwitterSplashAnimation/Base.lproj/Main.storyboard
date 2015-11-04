@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T42-jC-08q">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qaT-qY-egG">
+            <objects>
+                <viewController id="T42-jC-08q" customClass="ViewController" customModule="Swift_TwitterSplashAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1qS-wI-HKF"/>
+                        <viewControllerLayoutGuide type="bottom" id="shs-fY-gdI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jDZ-Lr-nvy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ei8-Wd-XyT">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ei8-Wd-XyT" secondAttribute="trailing" id="2gH-XD-Uu3"/>
+                            <constraint firstItem="ei8-Wd-XyT" firstAttribute="top" secondItem="jDZ-Lr-nvy" secondAttribute="top" id="J1u-Uq-G6g"/>
+                            <constraint firstAttribute="bottom" secondItem="ei8-Wd-XyT" secondAttribute="bottom" id="S9O-yS-FnF"/>
+                            <constraint firstItem="ei8-Wd-XyT" firstAttribute="leading" secondItem="jDZ-Lr-nvy" secondAttribute="leading" id="kzO-OB-6D7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dnU-Ig-wAr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B47-X0-BGT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="100"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.JPG" width="636" height="638"/>
+    </resources>
+</document>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB1A2F4D1BEA0479006E83A6 /* record.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB1A2F4C1BEA0479006E83A6 /* record.mov */; };
 		DBCF61C51BE8B7EE000F8004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF61C41BE8B7EE000F8004 /* AppDelegate.swift */; };
 		DBCF61CA1BE8B7EE000F8004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCF61C81BE8B7EE000F8004 /* Main.storyboard */; };
 		DBCF61CC1BE8B7EE000F8004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCF61CB1BE8B7EE000F8004 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB1A2F4C1BEA0479006E83A6 /* record.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = record.mov; sourceTree = "<group>"; };
 		DBCF61C11BE8B7EE000F8004 /* Swift-TwitterSplashAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-TwitterSplashAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF61C41BE8B7EE000F8004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBCF61C61BE8B7EE000F8004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 		DBCF61C31BE8B7EE000F8004 /* Swift-TwitterSplashAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				DB1A2F4C1BEA0479006E83A6 /* record.mov */,
 				DBCF61D81BE8B966000F8004 /* logo.png */,
 				DBCF61D61BE8B827000F8004 /* person.JPG */,
 				DBCF61C41BE8B7EE000F8004 /* AppDelegate.swift */,
@@ -136,7 +133,6 @@
 				DBCF61CF1BE8B7EE000F8004 /* LaunchScreen.storyboard in Resources */,
 				DBCF61CC1BE8B7EE000F8004 /* Assets.xcassets in Resources */,
 				DBCF61CA1BE8B7EE000F8004 /* Main.storyboard in Resources */,
-				DB1A2F4D1BEA0479006E83A6 /* record.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
